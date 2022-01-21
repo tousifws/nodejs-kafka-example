@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-kafka-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "compose:up": "docker-compose up",
+    "producer": "node producer/index.js",
+    "consumer": "node consumer/index.js",
+    "compose:down": "docker-compose down"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tousifws/nodejs-kafka-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tousifws/nodejs-kafka-example/issues"
+  },
+  "homepage": "https://github.com/tousifws/nodejs-kafka-example#readme",
+  "dependencies": {
+    "node-rdkafka": "^2.12.0"
+  }
+}
